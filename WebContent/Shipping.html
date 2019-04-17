@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Shipping page</title>
+<link rel="stylesheet" href="css/shipCss.css"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" language="javascript" src="js/jquery.js"></script>
+<script src="js/Shipping.js"></script>
+</head>
+
+<body><p id="logout"><a href="logout.jsp">Logout</a>
+<p>Welcome, <%=session.getAttribute("name")%></p>
+    <form id=shippingFrom name="info" action="Success.html"  onsubmit="return validateForm()">
+            <p>
+                    
+                    <label for="email"  >*<b>Email ?</b></label><br>
+                    <input type="email" id="emailid" name="email"><span id="email_error_msg" style="color:red"></span><br><br>
+                    <input type="checkbox">Create an account to save time on your next checkout</input>
+                   
+            </p>
+            <p>
+                    <label for="firstName">*<b>First Name</b></label><br>
+                    <input type="text" id="fname" name="firstName"><span id="firstname_error_msg" style="color:red"></span><br><br>
+            </p>
+            <p>
+                    <label for="lastName">*<b>Last Name</b></label><br>
+                    <input type="text" id="lname" name="lastName"><span id="lastname_error_msg" style="color:red"></span><br><br>
+            </p>
+            <p>
+                    <label for="Address">*<b>Address Line</b></label><br>
+                    <input type="text" id="address" name="address"><span id="address_error_msg" style="color:red"></span><br><br>
+            </p>
+            <p>
+                    <label for="city">*<b>City</b></label><br>
+                    <input type="text" id="city" name="city"><span id="city_error_msg" style="color:red"></span><br><br>
+            </p>
+            <p>
+                    <label>*State:</label><br>
+                   
+                    <select type="text" id="state" name="state">
+                            <option value="Goa">Gao</option>
+                            <option value="Maharashtra">Maharashtra</option>
+                            <option value="Delhi">Delhi</option>
+                            <option value="Gujrat">Gujrat</option>
+                            <option value="Karnataka">Karnataka</option>
+                            <option value="Tamil Nadu">Tamil Nadu</option>
+                            <option value="Uttar Pradesh">Uttar Pradesh</option>
+                            <option value="Madhya Pradesh">Madhya Pradesh</option>
+                            <option value="Haryana">Haryana</option>
+                    </select> 
+                   <!-- 
+                    <input type="text"required>
+                    <input type="text" id="state" name="state"><span id="state_error_msg" style="color:red"></span><br><br>-->
+
+            </p>
+            <p>
+                    <label for="Pincode">*<b>Postal Code</b></label><br>
+                    <input type="text" id="pincode" name="pincode"><span id="pincode_error_msg" style="color:red"></span><br><br>
+            </p>
+            <p>
+                    <label for="mobileNumber">*<b>Mobile Number</b></label><br>
+                    <input type="tel" id="mobileno" name="mobileNumber"><span id="mobileno_error_msg" style="color:red"></span><br><br>
+                    
+            </p>
+            <p>
+                    
+                    <input type="submit" class="continueBtn"onclick="myFunction()" value="Continue">
+            </p>
+
+
+    </form>
+   
+
+</body>
+</html>

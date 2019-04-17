@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Users/amhamane/Downloads/mysql-connector-java-5.1.25.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amhamane/Downloads/servlet-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amhamane/Documents/New folder (2)/Java Jars/classes12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amhamane/Documents/New folder (2)/Java Jars/commons-fileupload-1.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amhamane/Documents/New folder (2)/Java Jars/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amhamane/Documents/New folder (2)/Java Jars/javax.servlet-api-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amhamane/Documents/New folder (2)/Java Jars/jsp.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amhamane/Documents/New folder (2)/Java Jars/jstl.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amhamane/Documents/New folder (2)/Java Jars/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amhamane/Documents/New folder (2)/Java Jars/jstl-standard.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amhamane/Documents/New folder (2)/Java Jars/mysql-connector.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amhamane/Documents/New folder (2)/Java Jars/ojdbc6-11.2.0.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amhamane/Documents/New folder (2)/Java Jars/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amhamane/Documents/New folder (2)/Java Jars/servlet-api-2.5.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/mysql-connector-java-5.1.25.jar"/>
+	<classpathentry kind="lib" path="C:/Users/amhamane/Downloads/mysql-connector-java-8.0.15.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/mysql-connector-java-8.0.15.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/mysql-connector.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

@@ -1,0 +1,83 @@
+
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=email] ,input[type=tel] {
+  width: 50%;
+  padding: 10px;
+  margin: 5px 0 10px 0;
+  display: inline-block;
+  border: none;
+  
+  
+}
+select{
+	 width: 52%;
+  padding: 10px;
+  margin: 5px 0 10px 0;
+  display: inline-block;
+  border: none;
+	
+}
+input[type=text]:focus, {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+#shippingFrom{
+
+	  
+        margin-left : 30%
+}
+body{
+		background-color: #d9f2e6;
+}
+/* Set a style for the submit/register button */
+.continueBtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 5px 0;
+  border: none;
+  cursor: pointer;
+  width: 52%;
+  opacity: 0.5;
+}
+
+.continueBtn:hover {
+  opacity:1;
+}
+form {
+  text-align: left;
+}
+/* Add a blue text color to links */
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+
+.valid {
+    float: right;
+    position: relative;
+    top: 1.4rem;
+    left: -10%;
+    width: 1rem;
+    height: 1rem;
+    background: transparent;
+    content: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/939465/tick.jpg);
+  }
+#logout {
+  position: relative;
+  float: right;
+  
+}
